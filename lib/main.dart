@@ -33,7 +33,7 @@ void main() async {
 
                         leading: new CircleAvatar(
                           backgroundColor: Colors.orangeAccent,
-                          child: Text('${_data[position]['body'][0]}',
+                          child: Text('${_data[position]['body'][0]}'.toUpperCase(),
                             style: new TextStyle(
                               fontSize: 14,
                               color: Colors. red),
